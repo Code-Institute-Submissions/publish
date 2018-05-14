@@ -1,0 +1,31 @@
+.gradient-custom .custom{
+  background: #ba8b02; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ba8b02, #181818); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ba8b02, #181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+.card-comments img {
+  width: 4rem;
+}
+.text-white {
+  color: #fff;
+  background: #ba8b02; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ba8b02, #181818); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ba8b02, #181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.pt-5, .py-5 {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000, #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 3rem!important;
+}
+.btn[class*=btn-outline-].btn-md {
+  padding-top: .58rem;
+  padding-bottom: .58rem;
+  border: solid 1px black;
+}
+.mdb-color.darken-2 {
+  background-color: #272727!important;
+}
+
+  

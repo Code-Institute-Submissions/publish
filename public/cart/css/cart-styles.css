@@ -1,0 +1,137 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #8e9eab; /* for the tint */
+    background-image: linear-gradient(to bottom, white 0%, white 100%); /* for the content */
+}
+
+header {
+    background-image: url("../cart-images/P.jpg");
+    color: white;
+    padding: 5%;
+    width: 90%;
+    position: fixed;
+    top: 0;
+}
+
+header img {
+    float: right;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+
+    margin: 0;
+    font-size: 1.4em;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.2em;
+    color: rgb(90, 88, 88);
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    padding-top: 120px;
+}
+
+#cart {
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    left: 20%;
+    right: 20%;
+    background-color: rgb(0, 0, 0);
+    color: #DDD;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    z-index: 1000;
+}
+
+#cart li {
+    margin: 15px 20px;
+}
+#cart a {
+    color: yellow;
+}
+#cart h4 {
+    text-align: center;
+    margin: 0;
+    font-size: 0.8em;
+    color: #AAA;
+}
+#cart p {
+    margin: 0;
+}
+
+
+h3 {
+    margin-top: 0;
+    background-color: white;
+    padding: 5px;
+    border-bottom: 1px solid rgb(70, 70, 71);
+    position: -webkit-sticky; /* Safari only */
+    position: sticky;
+    top: 120px;
+}
+
+h3::selection {
+    background-color: green;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.meal {
+    margin-top: 15px;
+}
+
+.meal h4 {
+    font-family: 'Lato', sans-serif;
+    color: rgb(61, 61, 61);
+    font-size: 1.3em;
+    margin: 5px 0;
+}
+
+.meal section {
+    display: flex;
+}
+
+.meal .description {
+    font-size: 0.9em;
+    color: #444;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.meal .price {
+    width: 100px;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: right;
+    vertical-align: middle;
+    margin: 0;
+}
+
+footer {
+    padding: 45px;
+    text-align: center;
+    font-size: small;
+}
+
+a {
+    padding: 15px;
+    -webkit-tap-highlight-color: orange;
+    -webkit-touch-callout: none;
+}

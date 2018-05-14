@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-title" content="FreeStyler-Pro">
+    <meta name="theme-color" content="black">
+    <link rel="apple-touch-icon" href="#" alt="Logo" sizes="120x120">
+    <link rel="apple-touch-icon" href="#" alt="Logo" sizes="152x152">
+    <link rel="icon" href="#" alt="Logo" sizes="192x192">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Freestyler | Pro</title>
+    <link rel="shortcut icon" href="images/favicon/">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,400i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="city-styles/city-styles.css">
+    <script src="city-js/geo.js"></script>
+    <script src="city-js/city-script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXBgRB-zxXmlhD0VMfd8rS72oKDjGsGwk&callback=initMap"
+  type="text/javascript"></script>
+
+
+<title>Near By Restaurant Finder</title>
+
+<header id="api">
+    <nav>
+       <ul>
+            <li><a id="lnkAll"  class="btn active" href="#">All Restaurants</a></li>
+            <li><a id="lnkNear" class="btn" href="#">Near Me</a></li>
+            <li><a id="lnkMap"  class="btn" href="#">Show Map</a></li>
+            <li><a id="lnkMap"  class="btn" href="index.html">Home</a></li>
+       </ul>
+    </nav> 
+    <!-- <ul class="sidenav">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="#news">Near Me</a></li>
+            <li><a href="#contact">Show Map</a></li>
+            <li><a href="#about">All Restaurants</a></li>
+    </ul> -->
+          
+          
+</header>
+
+<main>
+
+    <h1>Near By Restaurant Finder</h1>
+
+    <section id="mapContainer" class="hidden">
+        <h2>Map</h2>
+        <div id="map"></div>
+    </section>
+
+    <section id="list">
+        <h2 id="listTitle">No Results</h2>
+        <ul>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="text-center">
+       
+    <p>
+        &copy; <span>FreeStyler</span>
+    </p>
+        
+</footer>
+</html>

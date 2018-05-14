@@ -1,0 +1,281 @@
+
+/* *,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+body {
+  box-sizing: border-box;
+  display:block;
+}
+
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  line-height: 1.7;
+  color: #777;
+  padding: .5rem;
+}
+header {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #f3914fe8, #3b4371cb), url("../images/P.jpg");
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 85%, 0 100%);
+  }
+  
+  
+  
+    .header__logo-box {
+      position: absolute;
+      top: 4rem;
+      left: 4rem; 
+    }
+  
+    .header__logo {
+      height: 5.9rem; 
+      color: white;
+      
+    }
+  
+    .header__text-box {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center; 
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+  }
+
+
+
+    
+  .heading-primary--main {
+      font-family: 'Lato', sans-serif;
+      display: block;
+      font-size: 6rem;
+      font-weight: 100;
+      letter-spacing: 1.5rem;
+      animation-name: moveInLeft;
+      animation-duration: 1s;
+      animation-timing-function: ease-out;
+      
+          animation-delay: 3s;
+          animation-iteration-count: 3;
+           }
+  
+  
+  
+          
+    .heading-primary--sub {
+      color: #ffffff;
+      font-family: 'Lato', sans-serif;
+      display: block;
+      font-size: 2rem;
+      font-weight: 100;
+      letter-spacing: .5rem;
+      text-transform: uppercase;
+      animation: moveInRight 1s ease-out;
+      
+   
+    }
+  
+  
+      .heading-secondary {
+        font-family: 'Lato', sans-serif;
+        font-size: 2.5rem;
+        -moz-text-decoration-line: 3.5rem;
+        text-transform: uppercase;
+        font-weight: 100;
+        display: inline-block;
+        background-image: linear-gradient(to right, #ffffff, #340481);
+        -webkit-background-clip: text;
+        color: transparent;
+        letter-spacing: .2rem;
+        transition: all .2s;
+      }
+  
+#temperature {
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+}
+
+.cold {
+    color: blue;
+}
+
+.hot {
+    color: red;
+}
+
+
+
+.btn, .btn:link, .btn:visited{
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+    font-size: 1.6rem;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  
+  .btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  }
+
+  .btn:hover::after{
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0;
+    }
+  
+  .btn:active, .btn:focus{
+      outline: none;
+      transform: translateY(-1px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2)
+    }
+      
+    .btn--white{
+        background-color: #fcfcfc;
+        color: rgba(255, 145, 1, 0.795);
+    }
+
+    .btn--white::after{
+        background-color: #ffffffb4;
+    }
+  
+  .btn::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s
+   }
+
+  .form__group:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+  
+  .form__input {
+    font-size: 1.5rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    background-color: rbga(#0e3cd3, 0.5);
+    border: none;
+    border-bottom: 2px solid transparent;
+    width: 100%;
+    display: block;
+    transition: all .3s;
+  }
+    .form__input:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+      border-bottom: 3px solid #f37601c4;
+    }
+    .form__input:focus:invalid {
+      border-bottom: 3px solid #ce002dc7;
+    }
+    .form__input::-webkit-input-placeholder {
+      color: rgb(5, 71, 253);
+    }
+  
+  .form__label {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 2rem;
+    margin-top: .7rem;
+    display: block;
+    transition: all .3s;
+  }
+  
+  .form__input:placeholder-shown + .form__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+  }
+   */
+
+   #temperature {
+    text-align: center;
+    font-size: 5em;
+}
+
+.cold {
+    color: blue;
+}
+
+.hot {
+    color: red;
+}
+.weatherbtn {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border:  transparent;
+  padding: 15px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+.city_name {
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+color: white;
+border-color: transparent;
+padding: 15px;
+letter-spacing: 1px;
+word-spacing: 1px;
+}
+.form{
+  border-color: white;
+}
